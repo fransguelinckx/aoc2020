@@ -46,7 +46,7 @@ fun main(args: Array<String>) {
         }
         startingNumbersMap[lastSpokenNumber] = startingNumbersMap[lastSpokenNumber]!!.takeLast(2).toMutableList()
 
-        if (index%100000 == 0) {
+        if (index % 100000 == 0) {
             println(index)
         }
     }
